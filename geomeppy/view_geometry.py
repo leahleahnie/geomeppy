@@ -165,7 +165,7 @@ def _get_limits(idf=None, polygons=None):
         limits = {
             "x": (min(x), min(x) + max_delta),
             "y": (min(y), min(y) + max_delta),
-            "z": (min(z), min(y) + max_delta),
+            "z": (min(z), min(z) + max_delta),
         }
     else:
         limits = {"x": (0, 0), "y": (0, 0), "z": (0, 0)}
